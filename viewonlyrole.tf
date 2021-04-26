@@ -4,7 +4,7 @@ resource "kubernetes_manifest" "clusterrole_clusterview" {
     "apiVersion" = "rbac.authorization.k8s.io/v1"
     "kind"       = "ClusterRole"
     "metadata" = {
-      "name" = "clusterview_test"
+      "name" = "clusterview"
     }
     "rules" = [
       {

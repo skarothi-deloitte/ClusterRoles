@@ -4,7 +4,7 @@ resource "kubernetes_manifest" "clusterrole_namespaceadmin" {
     "apiVersion" = "rbac.authorization.k8s.io/v1"
     "kind" = "ClusterRole"
     "metadata" = {
-      "name" = "namespaceadmin_test"
+      "name" = "namespaceadmin"
     }
     "rules" = [
       {

@@ -4,7 +4,7 @@ resource "kubernetes_manifest" "clusterrole_developerrole" {
     "apiVersion" = "rbac.authorization.k8s.io/v1"
     "kind" = "ClusterRole"
     "metadata" = {
-      "name" = "developerrole_test"
+      "name" = "developerrole"
     }
     "rules" = [
       {
